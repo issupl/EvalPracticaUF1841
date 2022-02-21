@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Raleway:ital,wght@0,100;0,200;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Roboto+Serif:wght@100;200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Nunito:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+}
+html{
+    scroll-behavior: smooth;
+	font-size: 16px;
+}
+li{
+    list-style:none;
+}
+
+body > a{
+	margin: 5px;
+	padding:5px;
+	position:sticky;
+	bottom:0;
+	right:5px;
+	z-index:1;
+	width:25px;
+	background-color: orange;
+	border: 1px solid black;
+	border-radius:5px;
+	display:flex;
+	align-items:center;
+	color:white;
+
+}
+q{
+	font-family: 'Gideon Roman', cursive;
+	padding: 0px;
+}
+p,li{
+	font-family:'Open Sans', sans-serif;
+	font-size: 13px;
+}
+h1,label{
+	font-family: 'Raleway', sans-serif;
+    font-size:20px;
+	margin: 10px;
+}
+legend{
+	font-family:'Open Sans', sans-serif;
+	font-size: 18px;
+	margin:5px;
+	padding: 20px;
+	background-color: orange;
+	color: white;
+}
+
+

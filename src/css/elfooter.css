@@ -1,0 +1,60 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin: 5px;
+    border: 1px solid black;
+}
+footer section {
+  width: 100%;
+  border: 1px solid black;
+  padding: 0px;
+}
+  footer section + section div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+  } 
+  footer section + section div i{
+    margin: 15px;
+  }
+  footer section fieldset{
+    margin: 10px;
+    padding: 10px;
+  }
+      
+      footer section form fieldset > div{
+        
+        color: black;
+        margin: 10px;
+        padding: 35px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+
+      }
+      
+      footer section form fieldset > div:nth-child(3){
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        
+      }
+      footer section form fieldset > div input{
+        
+        padding: 10px;
+        
+      }
+     /*... tengo que mirar width para poner 100% ...*/
+        footer section form fieldset div div textarea{
+         
+          width: 100%;
+          margin-top: 1em;
+          margin-bottom: 1em;
+        }
+
+        
